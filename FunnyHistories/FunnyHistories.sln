@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{44E18029-E539-445E-88C0-8392C669BE14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A507F294-226C-4DDF-865E-635F11A8E327}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FunnyHistories.Core", "src\FunnyHistories.Core\FunnyHistories.Core.xproj", "{A3CC259D-53C0-4290-8E9A-30B604CB5A4B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FunnyHistories.WebApi", "src\FunnyHistories.WebApi\FunnyHistories.WebApi.xproj", "{4ED27BFC-55D6-46E6-ACBF-C1FD64E51F7F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FunnyHistories.ClientApp", "src\FunnyHistories.ClientApp\FunnyHistories.ClientApp.xproj", "{96B12CB9-8E4E-4B5B-B41B-2BDCFA6A626E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3CC259D-53C0-4290-8E9A-30B604CB5A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3CC259D-53C0-4290-8E9A-30B604CB5A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3CC259D-53C0-4290-8E9A-30B604CB5A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3CC259D-53C0-4290-8E9A-30B604CB5A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED27BFC-55D6-46E6-ACBF-C1FD64E51F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED27BFC-55D6-46E6-ACBF-C1FD64E51F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED27BFC-55D6-46E6-ACBF-C1FD64E51F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED27BFC-55D6-46E6-ACBF-C1FD64E51F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96B12CB9-8E4E-4B5B-B41B-2BDCFA6A626E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B12CB9-8E4E-4B5B-B41B-2BDCFA6A626E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B12CB9-8E4E-4B5B-B41B-2BDCFA6A626E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B12CB9-8E4E-4B5B-B41B-2BDCFA6A626E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3CC259D-53C0-4290-8E9A-30B604CB5A4B} = {44E18029-E539-445E-88C0-8392C669BE14}
+		{4ED27BFC-55D6-46E6-ACBF-C1FD64E51F7F} = {44E18029-E539-445E-88C0-8392C669BE14}
+		{96B12CB9-8E4E-4B5B-B41B-2BDCFA6A626E} = {44E18029-E539-445E-88C0-8392C669BE14}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+﻿<div class="row">
+    <h3> Historie w bazie </h3>
+    <ul>
+        <li *ngFor="let history of histories; let i = index;">
+            {{i}}. {{history.title}} : {{history.createBy}}
+        </li>
+    </ul>
+    <div *ngIf="histories.length">
+        <h3>W histori jest {{histories.length}} historyjek</h3>
+    </div>
+
+</div>
